@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Random Moving Circles</title>
+<style>
+  body, html { height: 100%; margin: 0; overflow: hidden; }
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.7;
+  }
+</style>
+<script>
+  var intervals = []; // Array to store interval IDs
+
+  function generateCircles() {
+    const numCircles = parseInt(document.getElementById('numCircles').value);
+    // Clear existing circles and intervals
+    document.body.innerHTML = '<input type="number" id="numCircles" placeholder="Enter number of circles"><button onclick="generateCircles()">Generate Circles</button><button onclick="stopCircles()">Stop Circles</button>';
+    intervals.forEach(clearInterval); // Clear all running intervals
+    intervals = [];
+
+    for (let i = 0; i < numCircles; i++) {
+      const circle = document.createElement('div');
+      const size = Math.random() * (100 - 20) + 20; // Circle size between 20px and 100px
+      circle.style.width = circle.style.height = `${size}px`;
+      circle.style.backgroundColor = `hsla(${Math.random() * 360}, 100%, 50%, 0.7)`;
+      circle.classList.add('circle');
+      circle.style.top = `${Math.random() * (window.innerHeight - size)}px`;
+      circle.style.left = `${Math.random() * (window.innerWidth - size)}px`;
+      document.body.appendChild(circle);
+
+      // Random movement
+      let intervalId = setInterval(() => {
+        circle.style.top = `${Math.random() * (window.innerHeight - size)}px`;
+        circle.style.left = `${Math.random() * (window.innerWidth - size)}px`;
+      }, 200);
+      intervals.push(intervalId);
+    }
+  }
+
+  function stopCircles() {
+    intervals.forEach(clearInterval);
+    intervals = [];
+  }
+</script>
+</head>
+<body>
+<input type="number" id="numCircles" placeholder="Enter number of circles">
+<button onclick="generateCircles()">Generate Circles</button>
+<button onclick="stopCircles()">Stop Circles</button>
+</body>
+</html>
