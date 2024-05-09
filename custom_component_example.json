@@ -1,9 +1,9 @@
 [
   {
-    "name": "text input",
-    "iconPath": "https://icons8.com/icon/70yRC8npwT3d/check-mark",
-    "htmlPath": "https://github.com/artakhv/calculator/blob/master/index.html",
-    "description": "Bla bla bla",
+    "name": "enter text",
+    "iconPath": "https://main-bucket-for-integration.s3.us-west-2.amazonaws.com/for_EDITH/icons/clubs-48.png",
+    "htmlPath": "https://github.com/fromStepan/customComponent/blob/main/enter_image_name.html",
+    "description": "Enter text, then the system creates the image with that text",
     "moreUrl": "https://doc.superannotate.com"
   },
   {
