@@ -8,30 +8,30 @@
   },
   {
     "name": "wrong icon path",
-    "iconPath": "https://img.icons8.com/ios/50/escalator.png",
-    "htmlPath": "https://github.com/artakhv/calculator/blob/master/index.js",
-    "description": "Bla bla bla",
+    "iconPath": "https://img.icons8.com/ios/50/wrong_icon_path.png",
+    "htmlPath": "https://github.com/fromStepan/customComponent/blob/main/enter_image_name.html",
+    "description": "icon path is wrong",
     "moreUrl": "https://doc.superannotate.com"
   },
   {
     "name": "wrong html path",
     "iconPath": "https://img.icons8.com/carbon-copy/100/bus--v1.png",
     "htmlPath": "https://github.com/not/valid/link/doctor/index.html",
-    "description": "Bla bla bla",
+    "description": "html path is wrong",
     "moreUrl": "https://doc.superannotate.com"
   },
   {
     "name": "emoji description",
-    "iconPath": "https://img.icons8.com/carbon-copy/100/bus--v1.png",
-    "htmlPath": "https://github.com/not/valid/link/doctor/index.html",
-    "description": "Bla bla bla",
+    "iconPath": "https://main-bucket-for-integration.s3.us-west-2.amazonaws.com/for_EDITH/icons/call-of-duty-warzone-96.png",
+    "htmlPath": "https://github.com/fromStepan/customComponent/blob/main/enter_image_name.html",
+    "description": "💩",
     "moreUrl": "https://doc.superannotate.com"
   },
   {
     "name": "wrong more url",
-    "iconPath": "https://img.icons8.com/carbon-copy/100/bus--v1.png",
-    "htmlPath": "https://github.com/not/valid/link/doctor/index.html",
-    "description": "Bla bla bla",
-    "moreUrl": "https://doc.superannotate.com"
+    "iconPath": "https://main-bucket-for-integration.s3.us-west-2.amazonaws.com/for_EDITH/icons/alternative-investments.png",
+    "htmlPath": "https://github.com/fromStepan/customComponent/blob/main/enter_image_name.html",
+    "description": "more URL is wrong",
+    "moreUrl": "https://doc.wrong_more_url.com"
   },
 ]
