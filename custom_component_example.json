@@ -1,9 +1,37 @@
 [
   {
-    "name": "Web component 1",
-    "iconPath": "https://www.flaticon.com/free-icons/library",
-    "htmlPath": "https://......",
+    "name": "text input",
+    "iconPath": "https://icons8.com/icon/70yRC8npwT3d/check-mark",
+    "htmlPath": "https://github.com/artakhv/calculator/blob/master/index.html",
     "description": "Bla bla bla",
-    "moreUrl": "https://doc.superannotate.com/..."
-  }
+    "moreUrl": "https://doc.superannotate.com"
+  },
+  {
+    "name": "wrong icon path",
+    "iconPath": "https://img.icons8.com/ios/50/escalator.png",
+    "htmlPath": "https://github.com/artakhv/calculator/blob/master/index.js",
+    "description": "Bla bla bla",
+    "moreUrl": "https://doc.superannotate.com"
+  },
+  {
+    "name": "wrong html path",
+    "iconPath": "https://img.icons8.com/carbon-copy/100/bus--v1.png",
+    "htmlPath": "https://github.com/not/valid/link/doctor/index.html",
+    "description": "Bla bla bla",
+    "moreUrl": "https://doc.superannotate.com"
+  },
+  {
+    "name": "emoji description",
+    "iconPath": "https://img.icons8.com/carbon-copy/100/bus--v1.png",
+    "htmlPath": "https://github.com/not/valid/link/doctor/index.html",
+    "description": "Bla bla bla",
+    "moreUrl": "https://doc.superannotate.com"
+  },
+  {
+    "name": "wrong more url",
+    "iconPath": "https://img.icons8.com/carbon-copy/100/bus--v1.png",
+    "htmlPath": "https://github.com/not/valid/link/doctor/index.html",
+    "description": "Bla bla bla",
+    "moreUrl": "https://doc.superannotate.com"
+  },
 ]
