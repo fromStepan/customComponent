@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Image Display Example</title>
+<script>
+function displayImage() {
+    var imageName = document.getElementById('imageNameInput').value;
+    // Create a URL to a placeholder image service
+    var imagePath = 'https://via.placeholder.com/500?text=' + encodeURIComponent(imageName);
+    
+    document.getElementById('imageDisplay').src = imagePath;
+    document.getElementById('imageDisplay').style.display = 'block';
+}
+</script>
+<style>
+    #imageDisplay {
+        display: none;
+        max-width: 500px;
+        height: auto;
+    }
+</style>
+</head>
+<body>
+<h1>Enter Image Name</h1>
+<input type="text" id="imageNameInput" placeholder="Enter image name">
+<button onclick="displayImage()">Show Image</button>
+<br>
+<img id="imageDisplay" alt="Display area">
+</body>
+</html>
